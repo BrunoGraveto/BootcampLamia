@@ -78,8 +78,74 @@ dicionario = {
 print('Linguagem do dicionário: ' + dicionario['lingua'])
 
 ## OPERADORES ##
-# UNARIOS
+# UNARIOS: envolvem uma unica "condição"
+var = not False
+print(f'Meu nome é Bruno? {var}')
 
-# ARITMÉTICOS
+num = 3
+num = -num
+print(f'Negativo de 3 é {num}')
 
-# RELACIONAIS
+# ARITMÉTICOS: no caso, para cálculos
+soma = 1 + 1
+print(f'Soma de 1 + 1: {soma}')
+sub = 1 - 1
+print(f'Subtração de 1 - 1: {sub}')
+mult = 1 * 1
+print(f'Multiplicação de 1 * 1: {mult}')
+div = 1 / 1
+print(f'Divisão de 1 / 1: {div}')
+resto = 1 % 1
+print(f'Resto de 1 / 1 (1 % 1): {resto}')
+
+# RELACIONAIS: comparação 
+x = 10
+y = 20
+
+igual = x == y
+print(f'X({x}) == Y({y}): {igual}')
+dif = x != y
+print(f'X({x}) != Y({y}): {dif}')
+maior = x > y
+print(f'X({x}) > Y({y}): {maior}')
+menor = x < y
+print(f'X({x}) < Y({y}): {menor}')
+
+# ATRIBUIÇÃO: formas de "manipular" as variaveis
+x = 0
+
+# ADD
+x += 1
+print(f'Incremento em x: {x}')
+
+# SUB
+x -= 2
+print(f'Decremento em x: {x}')
+
+# MULT
+x *= 5
+print(f'Multiplicação em x: {x}')
+
+# DIV
+x /= 2
+print(f'Divisão em x: {x}')
+
+# RESTO
+x %= 2
+print(f'Módulo em x: {x}')
+
+# LÓGICOS: definem "True" ou "False"
+verdade = True
+mentira = False
+
+print(f'Verdade & verdade: {verdade and verdade}')
+print(f'Mentira & mentira: {mentira and mentira}')
+print(f'Verdade & mentira: {verdade and mentira}')
+
+print(f'Verdade | verdade: {verdade or verdade}')
+print(f'Mentira | mentira: {mentira or mentira}')
+print(f'Verdade | mentira: {verdade or mentira}')
+
+print(f'Verdade & NÃO verdade: {verdade and not verdade}')
+print(f'NÃO Mentira | mentira: {not mentira or mentira}')
+

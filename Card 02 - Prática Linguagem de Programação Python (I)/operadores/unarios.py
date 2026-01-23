@@ -7,6 +7,6 @@ print(-y)
 print(+3)
  
 # Não é possivel fazer isso:
-w = 12
-#w++
-print(w)
+# w = 12
+# w++
+# print(w)

@@ -38,3 +38,6 @@ import operadores.aritmeticos
 
 print('-> relacionais.py')
 import operadores.relacionais
+
+print('-> atribuicao.py')
+from operadores import atribuicoes
