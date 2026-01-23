@@ -20,3 +20,21 @@ from tipos import basicos
 
 print('-> listas.py:')
 import tipos.listas
+
+print('-> tuplas.py:')
+from tipos import tuplas
+
+print('-> conjuntos.py')
+import tipos.conjuntos
+
+print('-> dicionarios.py')
+import tipos.dicionarios
+
+print('-> unarios.py')
+import operadores.unarios
+
+print('-> aritmeticos.py')
+import operadores.aritmeticos
+
+print('-> relacionais.py')
+import operadores.relacionais

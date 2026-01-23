@@ -1,11 +1,10 @@
-# Calculos
+
 a = 3
 b = 4.4
 c = a + b
 
 print(c)
 
-# Impressão Str + Int
 texto = 'Sua idade é...'
 idade = 19
 
