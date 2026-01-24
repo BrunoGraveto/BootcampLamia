@@ -44,3 +44,18 @@ from operadores import atribuicoes
 
 print('-> ternarios.py')
 from operadores import ternarios
+
+print('-> if_1.py')
+from controle import if_1
+
+print('-> if_2.py')
+from controle import if_2
+
+print('-> for_1.py')
+from controle import for_1
+
+print('-> while_1.py')
+from controle import while_1
+
+print('-> outros_exemplos.py')
+from controle import outros_exemplos
