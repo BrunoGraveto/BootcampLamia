@@ -160,5 +160,93 @@ idade = 19
 maiorIdade = True if idade >= 18 else False
 print(f'É maior de idade? {maiorIdade}')
 
+# CONDIÇÃO: "IF"
+alunoComportado = True
 
+if alunoComportado:
+    print('Muito bem, continue assim!')
+else:
+    print('Aí não dá né meu caro, melhora ai...')
+    
+idade = int(input('Digite sua idade: '))
 
+if idade <= 8:
+    print('Criança!')
+elif idade <= 12:
+    print('Pré-adolescente!')
+elif idade <= 18:
+    print('Adolescente!')
+elif idade <= 50:
+    print('Adulto!')
+else:
+    print('Idoso!')
+    
+# LOOPS: FOR
+print('Contando até 10:')
+for i in range(10):
+    print(i, end=' ')
+    
+print('')
+    
+print('Contando de 1 até 10:')
+for i in range(1, 11):
+    print(i, end=' ')
+
+print('')
+    
+print('Contando de 1 até 10 em 2 em 2:')
+for i in range(1, 11, 2):
+    print(i, end=' ')
+
+print('')
+
+alunos = ['Bruno', 'Igor', 'Jefferson', 'Marciano']
+print('Lista de Alunos:')
+for aluno in alunos:
+    print(aluno)
+    
+nums = {1, 1, 2, 2, 3, 3}
+print('Números de um conjunto:')
+for num in nums:
+    print(num)
+    
+moto = {
+    'modelo': 'CG TITAN',
+    'cilindrada': '160',
+    'ano': '2019'
+}
+
+print('Características da Moto:')
+for atrib in moto:
+    print(atrib, ': ', moto[atrib])
+    
+print('\nCaracterísticas da Moto: [2]')
+for atrib, valor in moto.items():
+    print(atrib, ': ', valor)
+    
+print('\nAtributos da Moto:')
+for atrib in moto.keys():
+    print(atrib)
+    
+print('\nValores da Moto:')
+for valor in moto.values():
+    print(valor)
+    
+# LOOPS: WHILE
+print('A bomba vai explodir em...')
+tempo = 10
+
+while tempo > 0:
+    print(f'Explodindo em {tempo}...')
+    tempo -= 1
+
+print('BOOOOOOMMMM')
+
+print('\nAté você não digitar \"sair\" você não sai daqui!')
+
+texto = ""
+
+while(texto != 'sair'):
+    texto = input('Digite:')
+
+print('Você saiu!')
