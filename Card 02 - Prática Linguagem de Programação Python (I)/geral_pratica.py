@@ -149,3 +149,16 @@ print(f'Verdade | mentira: {verdade or mentira}')
 print(f'Verdade & NÃO verdade: {verdade and not verdade}')
 print(f'NÃO Mentira | mentira: {not mentira or mentira}')
 
+# TERNARIO: "Três partes"
+temBrilho = True
+
+        # "1 parte"    # "2 parte"         # "3 parte"
+fala = 'É uma jóia!' if temBrilho else 'Vix, é só uma pedra!'
+print(fala)
+
+idade = 19
+maiorIdade = True if idade >= 18 else False
+print(f'É maior de idade? {maiorIdade}')
+
+
+

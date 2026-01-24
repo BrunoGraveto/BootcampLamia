@@ -41,3 +41,6 @@ import operadores.relacionais
 
 print('-> atribuicao.py')
 from operadores import atribuicoes
+
+print('-> ternarios.py')
+from operadores import ternarios
